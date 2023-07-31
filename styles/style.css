@@ -222,7 +222,7 @@ ol {
 }
 
 .search-form__label .search-form__pseudo-checkbox {
-  display: block;
+  display: flex;
   width: 19px;
   height: 19px;
   position: relative;
@@ -231,13 +231,10 @@ ol {
 
 .search-form__pseudo-checkbox::before {
   display: none;
-  position: absolute;
   content: "";
   width: 15px;
   height: 15px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
   background-color: white;
 }
 
