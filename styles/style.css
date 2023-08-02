@@ -70,6 +70,7 @@ ol {
 
 .result__video-container {
   position: relative;
+  display: flex;
   margin-bottom: 16px;
 }
 
@@ -153,6 +154,7 @@ ol {
   width: 225px;
   color: #fff;
   appearance: none;
+  padding: 0;
 }
 
 .search-form__textfield:focus {
@@ -162,6 +164,11 @@ ol {
 .search-form__textfield:focus-visible {
   outline: 1px solid #fff;
 }
+
+.search-form__textfield:active{
+  outline: 1px solid #fff;
+}
+
 
 .title {
   font-family: Oswald;
