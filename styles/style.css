@@ -165,15 +165,13 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__textfield:active{
+.search-form__textfield:active {
   outline: 1px solid #fff;
 }
 
-.search-form__submit-button:active{
+.search-form__submit-button:active {
   background-color: #545050;
 }
-
-
 
 .title {
   font-family: Oswald;
