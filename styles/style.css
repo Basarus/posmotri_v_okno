@@ -169,10 +169,6 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__submit-button:active {
-  background-color: #545050;
-}
-
 .title {
   font-family: Oswald;
   font-size: 75px;
@@ -283,6 +279,11 @@ ol {
   height: 34px;
   width: 194px;
   align-self: flex-end;
+}
+
+.search-form__submit-button:active {
+  background-color: #545050;
+  text-decoration: none;
 }
 
 .more-button {
