@@ -115,6 +115,10 @@ ol {
   background: linear-gradient(to right, #545050 392px, transparent 0%);
 }
 
+.content__card-link:active > .content__video-card {
+  background: linear-gradient(to right, #545050 392px, transparent 0%);
+}
+
 .content__video-card {
   display: flex;
   justify-content: space-between;
@@ -247,6 +251,10 @@ ol {
 }
 
 .search-form__label .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  display: block;
+}
+
+.search-form__checkbox:active + .search-form__pseudo-checkbox::before {
   display: block;
 }
 
